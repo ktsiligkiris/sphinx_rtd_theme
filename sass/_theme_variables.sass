@@ -8,16 +8,20 @@ $mathjax-color:                       $text-color
 
 $headerlink-color:                    $text-color
 
+//Nokia-specific colors
+$nokia-blue:                          #124191
+$nokia-gray:                          #474747
+
 // Code colors
 $text-viewcode-color:                 $green
 $text-codexref-color:                 $text-color
 
 // Definition list colors
-$class-color:                         $blue
-$method-color:                        $gray
+$class-color:                         $nokia-blue
+$method-color:                        $nokia-gray
 
 // GUI label color
-$guilabel-color:                      $blue
+$guilabel-color:                      $nokia-blue
 
 // Footer colors
 $footer-color:                        $text-medium
@@ -26,8 +30,8 @@ $footer-color:                        $text-medium
 $menu-vertical-background-color:      $section-background-color
 
 // Menu text colors
-$menu-color:                          $gray
-$menu-dark:                           lighten($menu-color,10%) !default
+$menu-color:                          $nokia-gray
+$menu-dark:                           $white //lighten($menu-color,10%) !default
 $menu-medium:                         lighten($menu-color,25%) !default
 $menu-light:                          lighten($menu-color,45%) !default
 $menu-lighter:                        lighten($menu-color,60%) !default
@@ -41,9 +45,9 @@ $menu-link-active:                    $white
 
 // Navigation colors
 $nav-background-color:                $menu-background-color
-$nav-search-background-color:         $blue
+$nav-search-background-color:         $nokia-blue
 $nav-search-color:                    $section-background-color
-$nav-link-color:                      $blue
+$nav-link-color:                      $nokia-blue
 $nav-link-color-visited:              $purple
 $nav-link-color-hover:                lighten($nav-link-color, 6%) !default
 $nav-link-color-alt:                  hsl(33, 100%, 51%)
@@ -56,7 +60,8 @@ $sidebar-title-background-color:      $table-border-color
 // Sphinx highlight color
 $highlight-color:                     $yellow
 
-$base-font-family:                    "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif
-$custom-font-family:                  "Roboto Slab", "ff-tisa-web-pro", "Georgia", Arial, sans-serif
-$custom-font-family2:                 Georgia, serif
-$code-font-family:                    Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace
+//Fonts
+$base-font-family:                    Arial, "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif
+$custom-font-family:                  Arial, "Roboto Slab", "ff-tisa-web-pro", "Georgia", Arial, sans-serif
+$custom-font-family2:                 Arial, Georgia, serif
+$code-font-family:                    Arial, Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace
